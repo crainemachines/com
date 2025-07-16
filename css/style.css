@@ -595,6 +595,17 @@ footer {
         justify-content: flex-start; /* 👈 aligns logo to the left */
         flex: initial; /* 👈 prevents stretching */
     }
+    
+    .logo-container h2 {
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: center;
+        margin: 0;
+        color: var(--secondary-color);
+    }
+
 
     .text-content {
         align-items: flex-start;
