@@ -587,12 +587,13 @@ footer {
     }
 
     .logo {
-        height: 25px;
-        width: 10px;
+        height: 60px;
+        width: auto;
     }
 
     .logo-container {
-        max-width: calc(100% - 40px);
+        justify-content: flex-start; /* 👈 aligns logo to the left */
+        flex: initial; /* 👈 prevents stretching */
     }
 
     .text-content {
