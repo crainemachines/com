@@ -105,100 +105,6 @@ nav ul {
 }
 
 
-@media (max-width: 480px) {
-    header {
-        padding: 0.5rem;
-        flex-wrap: wrap;
-    }
-
-    .logo-container {
-        flex: 1;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-        max-width: calc(100% - 50px);
-        justify-content: flex-start;
-    }
-
-    .logo {
-        height: 25px;
-        width: 10px;
-        margin-right: 12px;
-    }
-
-    .text-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex: 1;
-        gap: 4px;
-    }
-
-    .logo-container h1 {
-        font-size: 1.4rem;
-        font-weight: 900;
-        line-height: 1.2;
-        text-align: center;
-        margin: 0;
-        color: var(--primary-color);
-    }
-
-    .logo-container h2 {
-        display: block;
-        font-size: 0.9rem;
-        font-weight: 600;
-        line-height: 1.2;
-        text-align: center;
-        margin: 0;
-        color: var(--secondary-color);
-    }
-
-    .logo-container p {
-        font-size: 0.85rem;
-        line-height: 1.2;
-        text-align: center;
-        color: var(--primary-color);
-        margin: 2px 0 0 0;
-    }
-
-    .hamburger {
-        display: flex;
-        width: 30px;
-    }
-
-    .nav-menu {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        height: 100vh;
-        background-color: white;
-        padding: 80px 20px 20px;
-        transition: 0.3s ease-in-out;
-        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-menu.active {
-        right: 0;
-    }
-
-    .nav-menu ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .nav-menu ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-menu ul li a {
-        display: block;
-        padding: 10px;
-        font-size: 1.1rem;
-    }
-}
 
 nav ul li a {
     color: var(--dark-color);
@@ -681,8 +587,8 @@ footer {
     }
 
     .logo {
-        height: 100px;
-        width: auto;
+        height: 25px;
+        width: 10px;
     }
 
     .logo-container {
